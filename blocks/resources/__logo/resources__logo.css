@@ -4,4 +4,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: opacity 0.5s linear 0.5s;
+}
+
+.resources__logo:hover {
+  opacity: 0.5;
 }
